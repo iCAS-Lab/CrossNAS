@@ -8,5 +8,5 @@ The **CrossNAS** framework has two segments.
 1. _NN_Architecture_Search_: Performs weight-sharing based supernet training and subnet search for the neural network architecture
 2. _Mixed_Precision_Quantization_and_PIM_Search_: Finds the efficient mixed-precision quantization map and PIM configuration parameters for the searched NN architecture
 
-Please cite the following paper if you use the framework in your work.
+Please cite the following paper if you use the framework.
 _Md Hasibul Amin, Mohammadreza Mohammadi, Jason D. Bakos, and Ramtin Zand. 2025. CrossNAS: A Cross-Layer Neural Architecture Search Framework for PIM Systems. In Proceedings of the Great Lakes Symposium on VLSI 2025 (GLSVLSI '25). Association for Computing Machinery, New York, NY, USA, 334–340. https://doi.org/10.1145/3716368.3735178_
