@@ -57,16 +57,18 @@ def no_grad_wrapper(func):
     return new_func
 
 
-def get_cand_err(cand, args):
+def get_cand_err(qcand, args):
     max_train_iters = args.max_train_iters
     max_test_iters = args.max_test_iters
+    L = 5
+    cand = [8, 2, 1, 7, 5]
     top1 = 0
     top5 = 0
     total = 0
+    add_model(cand, qcand[:L])
     #try:
     if True:
-        accuracy, latency, energy, area = get_results(cand)
-        #accuracy, latency, energy, area = run_mnsim(str([6, 8, 8]))
+        accuracy, latency, energy, area = get_results(qcand)
         accuracy = accuracy * 100
         latency = latency * 1e-6
         energy = energy * 1e-6
