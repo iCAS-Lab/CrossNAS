@@ -11,7 +11,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
-from imcfunc import *
+from runimc import *
 assert torch.cuda.is_available()
 
 train_dataprovider, val_dataprovider = None, None
