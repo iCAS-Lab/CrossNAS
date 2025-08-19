@@ -162,7 +162,7 @@ def run_mnsim (name):
     home_path = os.getcwd()
     # print(home_path)
     SimConfig_path = os.path.join(home_path, "SimConfig.ini")
-    weights_file_path = os.path.join(home_path, "MNSIM/Interface/zoo/cifar100_[4, 2, 8, 5]_qbest_params.pth")#cifar100_[5, 2, 8, 7, 5]_qmix_params.pth")
+    weights_file_path = os.path.join(home_path, "MNSIM/Interface/zoo/cifar100_[4, 2, 9, 5]_qbest_params.pth")
     print(SimConfig_path)
      
     parser = argparse.ArgumentParser(description='MNSIM example')
